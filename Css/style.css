@@ -5,18 +5,19 @@ body{
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(200deg, rgb(153, 0, 255), rgb(0, 0, 0));
+    background: linear-gradient(200deg, rgb(17, 0, 255), rgb(255, 255, 255));
 
 
 }
 
 .container{
     text-align: center;
-    background-color: #696969;
+    background-color:  rgb(17, 0, 255);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
+    color: aliceblue;
 }
 
 
@@ -36,12 +37,13 @@ button{
     font-weight: 600;
     border: none;
     padding: 10px 20px;
+    color: rgb(0, 0, 0);
 
 }
 
 button:hover{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 22, 22);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 
 }
