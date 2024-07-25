@@ -3,7 +3,7 @@ const resultado = document.getElementById('resultado')
 function userPlay(userchoice){
     const computerchoice = getcomputerchoice();
     const gameresult = getGameResult(userchoice, computerchoice);
-    resultado.innerHTML = `você escolheu  ${userchoice}<br>Computador escolheu: ${computerchoice}.<br> ${gameresult}`;
+    resultado.innerHTML = `Você escolheu  ${userchoice}<br>Computador escolheu: ${computerchoice}.<br> ${gameresult}`;
 
 }
 
